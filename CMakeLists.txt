@@ -15,14 +15,9 @@ option(LIBIGL_WITH_OPENGL_GLFW "Use GLFW" ON)
 option(LIBIGL_WITH_OPENGL_GLFW_IMGUI "Use ImGui" ON)
 
 find_package(LIBIGL REQUIRED QUIET)
-find_package(Eigen3 REQUIRED)
-find_package(Boost COMPONENTS system filesystem REQUIRED)
-
 
 include_directories(
-        include
-        ${Boost_INCLUDE_DIR}
-        ${EIGEN3_INCLUDE_DIRS})
+        include)
 
 file(GLOB SRCFILES
         src/main.cpp
@@ -39,6 +34,4 @@ add_executable(${PROJECT_NAME}_bin ${SRCFILES})
 target_link_libraries(
         ${PROJECT_NAME}_bin
         ${qhullLibs}
-        ${Boost_FILESYSTEM_LIBRARY}
-        ${EIGEN3_LIBRARIES}
         igl::core igl::opengl_glfw igl::opengl_glfw_imgui igl::cgal)

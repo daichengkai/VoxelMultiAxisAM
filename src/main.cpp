@@ -9,7 +9,6 @@
 #include "voxel.h"
 #include "dual_contouring.h"
 #include "trimming.h"
-#include "file_parser.h"
 #include "utils.h"
 
 unsigned max_layer;

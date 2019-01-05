@@ -5,4 +5,5 @@ cmake-build-release/
 .DS_Store
 *~
 /layers/**/*.obj
+qhull/
 

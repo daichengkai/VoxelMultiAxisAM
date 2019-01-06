@@ -1,4 +1,4 @@
-## Under Construction :hammer: :hammer: :hammer:
+## Version 0.8 (04/01/2019)
 
 # Support-Free Volume Printing by Multi-Axis Motion
 

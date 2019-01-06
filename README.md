@@ -71,7 +71,7 @@ Here shows an example,
 ![Alt text](docs/surface_layer.png)
 
 
-## Tool-path Generation
+## Tool-Path Generation
 
 **Coming soon !!!**
 

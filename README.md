@@ -1,6 +1,6 @@
 ## Under Construction :hammer: :hammer: :hammer:
 
-# Support-free volume printing by multi-axis motion
+# Support-Free Volume Printing by Multi-Axis Motion
 
 ![](docs/teaser.jpg)
 
@@ -71,7 +71,7 @@ Here shows an example,
 ![Alt text](docs/surface_layer.png)
 
 
-## Tool-path Planning
+## Tool-path Generation
 
 **Coming soon !!!**
 
